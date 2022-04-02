@@ -66,7 +66,7 @@ cover:
 dream:
   enable: true
   showTitle: true
-  title: CS Student / NLP Enthusiast / Tireless Coder
+  title: Mathematician / NLP Enthusiast / Tireless Coder
   text: A postgraduate student from University of Sheffield specialising in Computer Science with Speech and Language Processing. Always come with strong critical thinking and well-run brainstorming session. With the knowledge of machine learning, deep learning, and mathematical programming.
 
 # Whether to display the musics.
@@ -81,12 +81,12 @@ music:
   type: playlist    #require song, playlist, album, search, artist
   id: 503838841     #require	song id / playlist id / album id / search keyword
   fixed: true       # 开启吸底模式
-  autoplay: false   # 是否自动播放
+  autoplay: true   # 是否自动播放
   theme: '#42b983'
   loop: 'all'       # 音频循环播放, 可选值: 'all', 'one', 'none'
   order: 'random'   # 音频循环顺序, 可选值: 'list', 'random'
   preload: 'auto'   # 预加载，可选值: 'none', 'metadata', 'auto'
-  volume: 0.7       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
+  volume: 0.3       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
   listFolded: true  # 列表默认折叠
   hideLrc: true     # 隐藏歌词
 
@@ -154,7 +154,7 @@ toc:
 # 代码块相关
 code:
   lang: true # 代码块是否显示名称
-  copy: false # 代码块是否可复制
+  copy: true # 代码块是否可复制
   shrink: true # 代码块是否可以收缩
   break: false # 代码是否折行
 
@@ -169,7 +169,7 @@ reward:
 # minCharNumber: Approve copyright information by copying at least how many characters.
 # 是否激活复制文章时追加博客和作者的版权信息.
 copyright:
-  enable: true
+  enable: false
   minCharNumber: 120 # 至少复制多少个字符就追加版权信息.
   description: The copyright of this article belongs to the author, please indicate the source of any form of reproduction.
 
@@ -180,7 +180,7 @@ copyright:
 # 考虑到mathjax加载比较耗时，你还需要在需要渲染的文章的Front-matter中再加上`mathjax: true`才行.
 mathjax:
   enable: true
-  cdn: https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  cdn: http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default
 
 # Post word count, reading duration, site total word count.
 # Before you activate, please confirm that you have installed the hexo-wordcount plugin,
@@ -193,7 +193,7 @@ postInfo:
   wordCount: true # 文章字数统计
   totalCount: true # 站点总文章字数
   min2read: true # 文章阅读时长
-  readCount: false # 文章阅读次数
+  readCount: true # 文章阅读次数
 
 # Whether to activate the 'love' effect of clicking on the page.
 # 是否激活点击页面的'爱心'效果，默认激活.
@@ -205,54 +205,54 @@ clicklove:
 profile:
   avatar: /medias/avatar-icon.jpg
   career: CS Student / NLP Enthusiast / Tireless Coder
-  introduction: A postgraduate student from University of Sheffield specialising in Computer Science with Speech and Language Processing. Always come with strong critical thinking and well-run brainstorming session. With the knowledge of machine learning, deep learning, and mathematical programming.
+  introduction: A researcher from University of Sheffield specialising in Computer Science with Speech and Language Processing. Always come with strong critical thinking and well-run brainstorming session. With the knowledge of machine learning, deep learning, and mathematical programming.
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的项目"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myProjects:
-  enable: false
+  enable: true
   data:
-    hexo-theme-matery:
+    Made-with-ML-Incubator-Project:
       icon: fas fa-file-alt
       iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
-      url: http://github.com/blinkfox/hexo-theme-matery
-      desc: This is a Hexo blog theme with 'Material Design' and responsive design.
-    Fenix:
+      url: https://github.com/penguinwang96825/Made-with-ML-Incubator-Project
+      desc: In this project, we focus on the researches applying natural language processing (NLP) technologies in the finance domain. We scrape tweets for forex traders then apply sentiment analysis to generate investment insight.
+    Intelligent-Asset-Allocation:
         icon: fas fa-database
         iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
-        url: https://github.com/blinkfox/fenix
-        desc: 这是 Spring Data JPA 复杂或动态 SQL 查询的扩展库。
-    typora-vue-theme:
+        url: https://github.com/penguinwang96825/intelligent-asset-allocation
+        desc: This is a MVP of asset allocation web application, which can help users build their stock portfolio using model like Black-litterman.
+    Text-Classifier-for-UtaPass-and-KKBOX:
         icon: fas fa-file-alt
         iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
-        url: https://github.com/blinkfox/typora-vue-theme
-        desc: This is a typora theme inspired by Vue document style.
+        url: https://github.com/penguinwang96825/Text-Classifier-for-UtaPass-and-KKBOX
+        desc: Text classification for reviews of UtaPass & KKBOX using different deep learning models.
 
 # config my skills informations in about page.
 # If you don't want to display this `My Skills` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的技能"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 mySkills:
-  enable: false
+  enable: true
   data:
-    Java:
+    Python:
       background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
-      percent: 85%
-    JavaScript:
+      percent: 90%
+    R:
       background: 'linear-gradient(to right, #9900FF 0%, #CC66FF 100%)'
-      percent: 80%
-    HTML5:
+      percent: 85%
+    MATLAB:
       background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
       percent: 80%
-    CSS:
+    HTML5:
       background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
       percent: 70%
-    SQL:
+    CSS:
       background: 'linear-gradient(to right, #4CAF50 0%, #81C784 100%)'
-      percent: 90%
-    程序设计:
+      percent: 70%
+    Java:
       background: 'linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)'
-      percent: 75%
+      percent: 50%
 
 # config gallery of my photos in about page.
 # If you don't want to display this `Gallery` content, you can deactivate or delete this configuration.
@@ -284,12 +284,12 @@ postCalendar: true
 # Gitalk 评论模块的配置，默认为不激活
 gitalk:
   enable: false
-  owner:
-  repo:
+  owner: 
+  repo: 
   oauth:
-    clientId:
-    clientSecret:
-  admin:
+    clientId: 
+    clientSecret: 
+  admin: 
 
 # the Gitment config，default disabled
 # Gitment 评论模块的配置，默认为不激活
@@ -304,8 +304,8 @@ gitment:
 # disqus config, default disabled
 # Disqus评论模块的配置，默认为不激活
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: penguinwang
 
 # Livere comment configuration, the default is not activated
 # Livere 来必力评论模块的配置，默认为不激活
@@ -390,9 +390,9 @@ githubLink:
 # 阅读文章的密码验证功能，如要使用此功能请激活该配置项，并在对应文章的Front-matter中写上'password'的键和加密后的密文即可.
 # 请注意：为了保证密码原文不会被泄露到网页中，文章的密码必须是通过'SHA256'加密的，这样就不会被破解.
 verifyPassword:
-  enable: false
-  promptMessage: 请输入访问本文章的密码
-  errorMessage: 密码错误，将返回主页！
+  enable: true
+  promptMessage: Please enter the password to access this article!
+  errorMessage: Wrong password, will return to the home page!
 
 # busuanzi(http://busuanzi.ibruce.info/) website statistics
 # 不蒜子(http://busuanzi.ibruce.info/) 网站统计
@@ -437,6 +437,7 @@ libs:
     prism: /libs/prism/prism.css
   js:
     matery: /js/matery.js
+    chocolate: /js/chocolate.js
     jquery: /libs/jquery/jquery.min.js
     materialize: /libs/materialize/materialize.min.js # 1.0.0
     masonry: /libs/masonry/masonry.pkgd.min.js # v4.0.0
@@ -544,7 +545,7 @@ ribbon:
 
 # 背景动态彩带.
 ribbon_dynamic:
-  enable: false
+  enable: true
 
 # sharejs文章分享模块.
 # 支持顺序，可选项目为twitter, facebook, google, qq, qzone, wechat, weibo, douban, linkedin.
@@ -568,6 +569,14 @@ subtitle:
   backSpeed: 50 # 删除速度
   sub1: The world is one big data problem.
   sub2: Torture the data, and it will confess to anything.
+  sub3: Keep calm use Stack Overflow.
+  sub4: Artificial Intelligence is the new sexy.
+  sub5: Life is short I use Python.
+  sub6: Data is the new science. Big Data holds the answers.
+  sub7: War is 90% information.
+  sun8: The most valuable commodity I know of is information.
+  sub9: Data matures like wine, applications like fish.
+  sub10: Without data you’re just another person with an opinion.
 
 # 手机二级菜单.
 navMenu:
@@ -604,7 +613,12 @@ jsDelivr:
 # 网站背景图
 background:
   enable: false
-  url: "https://cdn.jsdelivr.net/gh/Tokisaki-Galaxy/res/site/medias/background.jpg"
+  url: "https://github.com/penguinwang96825/Hexo-Blog/blob/master/medias/background.jpg?raw=true"
+
+# 加载动画
+loading:
+  enable: true
+  time: 500
 
 # 说说 https://artitalk.js.org/
 artitalk:
@@ -631,3 +645,19 @@ bbtime:
  appId: # 你的appId
  appKey: # 你的appKey
  serverURLs: # https://你的api
+
+# Local Search
+# Dependencies: https://github.com/next-theme/hexo-generator-searchdb
+local_search:
+  # DoItYourself
+  # enable: false
+  enable: true
+  # If auto, trigger search by changing input.
+  # If manual, trigger search by pressing enter key or search button.
+  trigger: auto
+  # Show top n results per article, show all results by setting to -1
+  top_n_per_article: 5
+  # Unescape html strings to the readable one.
+  unescape: false
+  # Preload the search data when the page loads.
+  preload: false

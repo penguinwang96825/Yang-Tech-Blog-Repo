@@ -7,9 +7,14 @@
 <% } %>
 
 <body>
+    <% if (theme.loading.enable) { %>
+        <!--  加载动画，强制加载0.5s  -->
+        <%- partial('_partial/loading') %>
+    <% } %>
     <%- partial('_partial/header') %>
     <%- body %>
 
+    <!-- footer -->
     <%- partial('_partial/footer') %>
 
     <%- partial('_partial/search') %>
@@ -109,5 +114,9 @@
     <% } %>
 
 </body>
+
+<script>
+    pseudocode.renderElement(document.getElementById("pseudocode"));
+</script>
 
 </html>
