@@ -1,18 +1,23 @@
 ---
+title: This is how the Journey Begins
 date: 2018-12-03 09:25:00
 author: Yang Wang
-img: /naist.jpg
+img: https://github.com/penguinwang96825/penguinwang96825.github.io/blob/master/2018/12/03/2018-12-03-this-is-how-the-journey-begins/naist.jpg?raw=true
 top: true
-cover: true
-coverImg: /naist.jpg
-toc: false
+cover: false
+coverImg: diamond.png
+toc: true
 mathjax: true
 summary: My journey after graduation. Graduation is not the end; it's the beginning to start a new journey after graduation. This is how the journey begins!
-categories: MSc
+categories: Growth
 tags:
   - NAIST
   - Sheffield
+  - CSSLP
+  - MSc
 ---
+
+# Introduction
 
 Graduation is not the end; it's the beginning to start a new journey after graduation. This is how the journey begins!
 
@@ -96,6 +101,8 @@ The most incredible thing is that I received offer from The University of Sheffi
 
 So I retook IELTS on 4th January 2020. Unfortunately, I got a touch of flu in the middle of December. This was a hard time for me to prepare IELTS test, cause I could not focus on my preparation.
 Unexpectedly, I got a band 6.5! To be honest, it indeed is unbelievable!
+
+# Conclusion
 
 I am definitely super excited and really looking forward to attending Sheffield this year.
 Here I am, Sheffield.
