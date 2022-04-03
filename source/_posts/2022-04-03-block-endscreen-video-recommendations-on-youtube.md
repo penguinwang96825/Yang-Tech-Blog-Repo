@@ -22,10 +22,6 @@ Video recommendations may appear after a video's playback ends or is about to en
 
 1. Activate the AdBlock icon in the browser's address bar.
 
-<figure>
-  <img src="adblock.png" width=100%>
-</figure>
-
 2. Locate the settings icon and activate it to open the preferences.
 
 3. Switch to the my filters tab when the dashboard opens.
